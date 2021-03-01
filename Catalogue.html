@@ -29,7 +29,26 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="Catalogue.html">Products </a>
+                <div class="btn-group">
+                  <a class="nav-link active" href="Catalogue.html">Products </a>
+                  <button
+                    type="button"
+                    class="btn  dropdown-toggle dropdown-toggle-split"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                  </ul>
+                </div>
+              
+            </li>
               </li>
               
               <li class="nav-item">
@@ -44,7 +63,7 @@
                 </a>
               </li>
               <button type="button" class="btn btn-danger btn-rounded">Buy</button>
-              <li class="nav-item me-3 me-lg-0 dropdown">
+              <li class="nav-item me-3 me-lg-0 dropdown dropstart">
                 <a
                   class="nav-link dropdown-toggle"
                   href="#"

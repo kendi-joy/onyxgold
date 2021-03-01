@@ -33,7 +33,25 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="Catalogue.html">Products </a>
+                <div class="btn-group">
+                  <a class="nav-link active" href="Catalogue.html">Products </a>
+                  <button
+                    type="button"
+                    class="btn  dropdown-toggle dropdown-toggle-split"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Shoes</a></li>
+                    <li><a class="dropdown-item" href="#">Electronics</a></li>
+                    <li><a class="dropdown-item" href="#">Clothes</a></li>
+                    <li><a class="dropdown-item" href="#">Beauty products </a></li>
+                  </ul>
+                </div>
+              
+            </li>
               </li>
               
               <li class="nav-item">
@@ -41,6 +59,7 @@
               </li>
               
             </ul>
+            
             <ul class="navbar-nav flex-col " >
               <li class="nav-item " >
                 <a class="nav-link" href="#">
@@ -49,25 +68,25 @@
                 </a>
               </li>
               <button type="button" class="btn btn-danger btn-rounded">Buy</button>
-              <li class="nav-item me-3 me-lg-0 dropdown">
-                <a
+              <li class="nav-item me-3 me-lg-0 dropdown dropstart">
+                 <a
                   class="nav-link dropdown-toggle"
                   href="#"
                   id="navbarDropdown"
                   role="button"
                   data-mdb-toggle="dropdown"
                   aria-expanded="false"
-                >
+                 >
                   <i class="fas fa-user"></i>
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-
+                 </a>
+                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <li><a class="dropdown-item" href="#">Log in</a></li>
+                   <li><a class="dropdown-item" href="#">Sign UP</a></li>
+                   <li><hr class="dropdown-divider" /></li>
+                   <li>
+                    <a class="dropdown-item" href="#">Log Out </a>
+                   </li>
+                 </ul>
 
             </ul>
           </div>

@@ -37,7 +37,7 @@
             </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            <i class="fas fa-bars color white"></i>
+            <i class="fas fa-bars color pink"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -45,7 +45,24 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="Catalogue.html">Products </a>
+                <div class="btn-group">
+                    <a class="nav-link active" href="Catalogue.html">Products </a>
+                    <button
+                      type="button"
+                      class="btn  dropdown-toggle dropdown-toggle-split"
+                      data-mdb-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Shoes</a></li>
+                      <li><a class="dropdown-item" href="#">Electronics </a></li>
+                      <li><a class="dropdown-item" href="#">Clothes</a></li>
+                      <li><a class="dropdown-item" href="#">Beauty Products</a></li>
+                    </ul>
+                  </div>
+                
               </li>
               
               <li class="nav-item">
@@ -60,7 +77,7 @@
                   </a>
                 </li>
                 <button type="button" class="btn btn-danger btn-rounded">Buy</button>
-                <li class="nav-item me-3 me-lg-0 dropdown">
+                <li class="nav-item me-3 me-lg-0 dropdown dropstart">
                   <a
                     class="nav-link dropdown-toggle"
                     href="#"
@@ -72,11 +89,11 @@
                     <i class="fas fa-user"></i>
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Log in </a></li>
+                    <li><a class="dropdown-item" href="#">Sign Up</a></li>
                     <li><hr class="dropdown-divider" /></li>
                     <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
+                      <a class="dropdown-item" href="#">Log Out</a>
                     </li>
   
   
