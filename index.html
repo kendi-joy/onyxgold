@@ -37,7 +37,7 @@
             </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            <i class="fas fa-bars color white"></i>
+            <i class="fas fa-bars color pink"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -45,17 +45,59 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="Catalogue.html">Products </a>
+                <div class="btn-group">
+                    <a class="nav-link active" href="Catalogue.html">Products </a>
+                    <button
+                      type="button"
+                      class="btn  dropdown-toggle dropdown-toggle-split"
+                      data-mdb-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Shoes</a></li>
+                      <li><a class="dropdown-item" href="#">Electronics </a></li>
+                      <li><a class="dropdown-item" href="#">Clothes</a></li>
+                      <li><a class="dropdown-item" href="#">Beauty Products</a></li>
+                    </ul>
+                  </div>
+                
               </li>
               
               <li class="nav-item">
                 <a class="nav-link active " href="About.html" tabindex="-1" aria-disabled="false">About </a>
               </li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            <ul class="navbar-nav flex-col " >
+                <li class="nav-item " >
+                  <a class="nav-link" href="#">
+                    <span class="badge badge-pill bg-danger">0</span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                  </a>
+                </li>
+                <button type="button" class="btn btn-danger btn-rounded">Buy</button>
+                <li class="nav-item me-3 me-lg-0 dropdown dropstart">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i class="fas fa-user"></i>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Log in </a></li>
+                    <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Log Out</a>
+                    </li>
+  
+  
+              </ul>
           </div>
         </div>
       </nav>
@@ -267,28 +309,28 @@
         </div>
         <div class="container">
            <div class="row align-items-horizontal ">
-               <div class="col-md-2 " >
-                   <img src="logo.png" alt="" width= "200px" height="200px" >
+               <div class="col-md-2 "  >
+                   <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.s39c3Boi_fuERl_t6AYNQQAAAA%26pid%3DApi&f=1" alt="" width= "200px" height="200px" >
   
                </div>
                <div class="col-md-2" >
-                  <img src="logo.png" alt="" width= "200px" height="200px">
+                  <img src="https://www.transparentpng.com/thumb/apple-iphone/QiuIOk-apple-iphone-x-64gb-picture.png" alt="" width= "200px" height="200px">
   
               </div>
               <div class="col-md-2 " >
-                  <img src="logo.png" alt="" width= "200px" height="200px">
+                  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fa2%2Fb4%2Fd3%2Fa2b4d30e60b76860b20ad8833772840b.png&f=1&nofb=1" alt="" width= "200px" height="200px">
   
               </div>
               <div class="col-md-2">
-                  <img src="logo.png" alt="" width= "200px" height="200px">
+                  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.vjtFbeydVgsyWpDQgCfYDgAAAA%26pid%3DApi&f=1" alt="" width= "200px" height="200px">
   
               </div>
               <div class="col-md-2">
-                  <img src="logo.png" alt="" width= "200px" height="200px">
+                  <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngmart.com%2Ffiles%2F7%2FKhaki-Pant-PNG-HD-279x279.png&f=1&nofb=1" alt="" width= "200px" height="200px">
   
               </div>
               <div class="col-md-2">
-                  <img src="logo.png" alt="" width= "200px" height="200px">
+                  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.dERjqxoiEXSSSHKwUNr1QAAAAA%26pid%3DApi&f=1" alt="" width= "200px" height="200px">
   
               </div>
               
@@ -301,13 +343,17 @@
     <!-- image links to the products page end here  -->
 
     <!--minimal image with link -->
-    <div class="container ">
+    <div class="container " style="margin-top: 50px; text-align: left;">
         <div class="row">
-            <div class="col-sm-4 " style="background-color: rgba(58, 1, 112, 0.541);">
-                <p> Onyxgold  limited appreciates all feedback from you.
+            <div class="col-sm-8 " style="background-color:rgb(252, 181, 88);">
+
+            <div class="col-sm-3 " style="color: rgb(51, 61, 73);">
+                <p><h3> <b>Your Favourites  In One Place </b></h3>  <h6 >From brand new tech to retro furniture, find your perfect here . </h6></p>
+                <div class="" > <a class=" btn btn-outline-primary"  href="Catalogue.html">  Learn More <i class="fas fa-angle-right"></i></a>  </div>
+                
 
             </div>
-            <div class="col-sm-8 " style="background-color:rgb(252, 181, 88);">
+            <div class="col-sm-9 " >
                 <img class=" class responsive-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.P1FnBEoB_0QgyDX5Xo9UoQHaET%26pid%3DApi&f=1" alt="" width="100%" height="300px">
                 
                 

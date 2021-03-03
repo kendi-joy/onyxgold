@@ -29,17 +29,61 @@ c                        <!DOCTYPE html>
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="Catalogue.html">Products </a>
+                <div class="btn-group">
+                  <a class="nav-link active" href="Catalogue.html">Products </a>
+                  <button
+                    type="button"
+                    class="btn  dropdown-toggle dropdown-toggle-split"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                  </ul>
+                </div>
+              
+            </li>
               </li>
               
               <li class="nav-item">
                 <a class="nav-link active " href="About.html" >About </a>
               </li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            <ul class="navbar-nav flex-col " >
+              <li class="nav-item " >
+                <a class="nav-link" href="#">
+                  <span class="badge badge-pill bg-danger">0</span>
+                  <span><i class="fas fa-shopping-cart"></i></span>
+                </a>
+              </li>
+              <button type="button" class="btn btn-danger btn-rounded">Buy</button>
+              <li class="nav-item me-3 me-lg-0 dropdown dropstart">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="fas fa-user"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+
+
+            </ul>
           </div>
         </div>
       </nav>
